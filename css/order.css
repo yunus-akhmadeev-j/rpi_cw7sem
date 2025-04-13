@@ -1,0 +1,147 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: rgb(245, 234, 230);
+    background: url(/img/reg1.jpg);
+}
+header{
+    padding: 0;
+    margin: 0;
+    background-color: bisque;
+}
+.logo{
+    display: flex;
+    background-color: bisque;
+    text-align: center;
+    text-decoration: none; 
+}
+.logo p{
+    display: flex;
+    justify-content: center;
+    margin-left: 600px;
+    size: 40px;
+    color: brown;
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-style:unset;
+    text-decoration-thickness:unset;
+    font-size: 40px;
+    text-align: center;
+    align-items: center;
+     
+}
+.logo p:hover{
+color: rgb(87, 3, 3);
+}
+.menu_list {
+    display: flex;
+    gap: 50px;
+    list-style-type: none;
+    
+}
+
+
+.menu_list_link{
+    text-decoration: none;
+    color: white;
+    
+    
+}
+.menu_list_link:hover{
+    color: rgb(82, 11, 11);
+}
+
+.header_menu_list {
+    min-width: 153px;
+    background-color: #7B6152;
+    color: #fff8f3;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px 0;
+  padding: 20px 20px;
+    right: 0;
+    top: -200%;   
+}
+main{
+    display: flex;
+    justify-content: center;
+    
+}
+.form-order {    
+    padding: 15px;
+    background-color: bisque;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    height: 400px;
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 200px;
+    
+}
+
+.form-order h4 {
+    margin-bottom: 15px;
+    font-size: 17px;
+}
+
+.form-order label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 17px;
+}
+
+.form-order input,
+.form-order textarea {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #333;
+    border-radius: 4px;
+}
+#designerID{
+    width: 50px;
+}
+.form-order button {
+    padding: 18px 54px;
+    background-color: #77250c;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 50px;
+    color: #e4e4e4;
+    box-shadow: 0 4px 6px rgba(65, 132, 144, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+    cursor: pointer;
+    transition: background-color 0.2s, box-shadow 0.2s;
+}
+
+.form-order button:hover {
+    background-color: #47013e; 
+}
+
+footer {
+    padding-top: 40px;
+    padding-bottom: 35px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    background-color: #333;
+    color: #6f37a3;
+ text-align: center;
+    padding: 10px 0;
+     width: 100%;
+      bottom: 0;
+     position:relative;
+     text-decoration: none;
+}
+.footer p a, a{
+    text-decoration: none;
+    color: #6f37a3;
+
+}
+.footer p a,a:hover{
+    text-decoration: none;
+    color:white;
+    
+}
+

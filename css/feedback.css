@@ -1,0 +1,112 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: rgb(245, 234, 230);
+    background: url(/img/reg1.jpg);
+    
+}
+header{
+    padding: 0;
+    margin: 0;
+    background-color: bisque;
+}
+.logo{
+    display: flex;
+    background-color: bisque;
+    text-align: center;
+    text-decoration: none; 
+}
+.logo p{
+    display: flex;
+    justify-content: center;
+    margin-left: 600px;
+    size: 40px;
+    color: brown;
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-style:unset;
+    text-decoration-thickness:unset;
+    font-size: 40px;
+    text-align: center;
+    align-items: center;
+     
+}
+.logo p:hover{
+color: rgb(87, 3, 3);
+}
+.menu_list {
+    display: flex;
+    gap: 50px;
+    list-style-type: none;
+    
+}
+
+
+.menu_list_link{
+    text-decoration: none;
+    color: white;
+    
+    
+}
+.menu_list_link:hover{
+    color: rgb(82, 11, 11);
+}
+
+.header_menu_list {
+    min-width: 153px;
+    background-color: #7B6152;
+    color: #fff8f3;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px 0;
+  padding: 20px 20px;
+    right: 0;
+    top: -200%;   
+}
+main{
+    margin-bottom: 200px;
+    margin-top: 50px;
+    
+    
+    
+}
+.contacts{
+    margin: 10px 10px;
+    display: flex;
+    justify-content: center;
+}
+.form_contacts{
+    border: solid 2px;
+    padding: 10px;
+background-color: #c5bbce;
+
+}
+
+
+footer {
+    padding-top: 40px;
+    padding-bottom: 35px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    background-color: #333;
+    color: #6f37a3;
+ text-align: center;
+    padding: 10px 0;
+     width: 100%;
+      bottom: 0;
+     position:relative;
+     text-decoration: none;
+}
+.footer p a, a{
+    text-decoration: none;
+    color: #6f37a3;
+
+}
+.footer p a,a:hover{
+    text-decoration: none;
+    color:white;
+    
+}
+
